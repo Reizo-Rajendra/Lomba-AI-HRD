@@ -1,0 +1,17 @@
+{
+  "name": "gtnic-project",
+  "version": "1.0.0",
+  "description": "TalentTrace AI - Autonomous Technical Screener for Enterprise Teams",
+  "scripts": {
+    "dev": "npm run dev:server & npm run dev:client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:client && npm run build:server",
+    "start": "npm start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
